@@ -27,7 +27,9 @@ public class Student {
     protected void setScholarship(double scholarship) {
         this.scholarship = scholarship;
     }
-
+    protected void setAverageGrade(double averageGrade) {
+        this.averageGrade = averageGrade;
+    }
     @Override
     public String toString() {
         return "Фамилия: " + name + "; Средний балл: " + averageGrade;

@@ -7,7 +7,7 @@ public class BudgetStudent extends Student {
         calculateScholarship();
     }
 
-    private void calculateScholarship()
+    public void calculateScholarship()
     {
         double baseScholarship = 100;
         if (getAverageGrade() >= 6 && getAverageGrade() < 7)
